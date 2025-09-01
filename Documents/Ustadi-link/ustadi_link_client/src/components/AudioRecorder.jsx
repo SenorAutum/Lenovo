@@ -17,7 +17,7 @@ function AudioRecorder() {
 
     try {
       // Send the audio file to our backend server
-      const response = await fetch('http://localhost:5001/api/transcribe', {
+      const response = await fetch('https://ustadi-link-api.onrender.com/api/transcribe', {
         method: 'POST',
         body: formData,
       });
