@@ -11,6 +11,7 @@ UstadiLink is an AI-powered platform designed to tackle **SDG 4: Quality Educati
 Experience UstadiLink live on Render:
 
 * **Live Frontend:** **[https://ustadi-link.onrender.com](https://ustadi-link.onrender.com)**
+                     **{https://ustadi-link.onrender.com/dashboard}(https://ustadi-link.onrender.com/dashboard)**
 * **Live Backend API:** **[https://ustadi-link-api.onrender.com](https://ustadi-link-api.onrender.com)**
 
 *(Note: The free instances may take 30-50 seconds to "wake up" on the first visit.)*
