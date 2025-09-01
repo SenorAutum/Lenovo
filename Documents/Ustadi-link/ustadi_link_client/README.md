@@ -1,12 +1,57 @@
-# React + Vite
+# UstadiLink 🛠️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Learn a Real Skill. Build Your Future.
 
-Currently, two official plugins are available:
+UstadiLink is an AI-powered platform designed to tackle **SDG 4: Quality Education** by bridging the skills gap in Kenya's vibrant informal economy. We connect young learners with expert local artisans for hands-on, micro-apprenticeships, preserving generational knowledge and creating direct pathways to employment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Experience UstadiLink live on Render:
+
+* **Live Frontend:** **[https://ustadi-link.onrender.com](https://ustadi-link.onrender.com)**
+* **Live Backend API:** **[https://ustadi-link-api.onrender.com](https://ustadi-link-api.onrender.com)**
+
+*(Note: The free instances may take 30-50 seconds to "wake up" on the first visit.)*
+
+---
+
+## ✨ Key Features
+
+* **AI Curriculum Builder:** Our core innovation. Artisans can simply record audio of themselves explaining a task in their natural language (English or Swahili). Our AI backend, powered by OpenAI's Whisper and GPT-4o, automatically transcribes and structures this audio into a complete, easy-to-read "Skill Module."
+* **Hyper-Local Artisan Discovery:** A clean, responsive interface for learners to discover and connect with vetted artisans in their community, with options to filter by skill and location.
+* **Multi-Page Architecture:** A full-stack application built with a modern React frontend and a robust Node.js backend, featuring seamless navigation with React Router.
+
+![UstadiLink Discover Page](https://i.imgur.com/r6t5a6d.jpeg)
+*(You can replace this with a screenshot of your own app)*
+
+---
+
+## 💡 Our Vision: An Impact Lab
+
+UstadiLink is the flagship project of our vision to build an "Impact Lab" that leverages AI to solve critical challenges. Our future projects include:
+
+* **AfyaBot (SDG 3):** An AI wellness companion providing verified health information and mental health support.
+* **MkulimaConnect (SDG 2):** An AI-powered marketplace to reduce food waste by optimizing logistics for small-scale farmers.
+
+---
+
+## 💻 Tech Stack
+
+* **Frontend:** React (Vite), React Router
+* **Backend:** Node.js, Express
+* **AI:** OpenAI API (Whisper for Transcription, GPT-4o for Structuring)
+* **Deployment:** Render (Static Site & Web Service)
+* **Development Tools:** Git, GitHub, VS Code
+
+---
+
+## 🔧 Getting Started (Local Setup)
+
+To run this project on your local machine:
+
+**Prerequisites:**
+* Node.js & npm installed
+* An OpenAI API Key
+
