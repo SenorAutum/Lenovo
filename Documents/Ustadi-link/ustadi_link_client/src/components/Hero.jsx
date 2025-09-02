@@ -1,5 +1,6 @@
-// src/components/Hero.jsx
+// src/components/Hero.jsx - Updated
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link
 
 function Hero() {
   return (
@@ -10,14 +11,13 @@ function Hero() {
           UstadiLink connects you with expert local artisans for hands-on training and apprenticeships.
         </p>
         <div className="hero-buttons">
-          <button className="btn btn-primary">Find a Mentor</button>
-          <button className="btn btn-secondary">Share Your Skill</button>
+          <Link to="/artisans" className="btn btn-primary">Find a Mentor</Link>
+          {/* This now correctly links to the sign-up page */}
+          <Link to="/signup" className="btn btn-secondary">Share Your Skill</Link>
         </div>
       </div>
     </div>
   );
 }
 
-// This is the crucial line that was likely missing.
-// It makes the component available to be imported by other files.
 export default Hero;

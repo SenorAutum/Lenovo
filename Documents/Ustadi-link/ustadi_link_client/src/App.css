@@ -235,3 +235,96 @@
   text-align: left;
   background-color: #fafafa;
 }
+/* src/App.css - Add these new styles at the bottom */
+
+.dashboard-page-container {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.dashboard-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.dashboard-content {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.action-card-large {
+  width: 100%;
+  max-width: 700px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.action-card-large h3 {
+  font-size: 1.75rem;
+  margin-top: 0;
+}
+
+.action-card-large p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.recorder-controls {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recorder-controls .btn-primary {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.btn-danger {
+  background-color: #e53e3e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.loading-message {
+  font-weight: 500;
+  color: #8c4d30;
+}
+
+.ai-response-box {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+.ai-response-box h4 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.ai-response-box ul, .ai-response-box ol {
+  padding-left: 20px;
+}

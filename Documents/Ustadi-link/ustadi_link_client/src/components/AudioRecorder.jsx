@@ -17,7 +17,7 @@ function AudioRecorder() {
 
     try {
       // Send the audio file to our backend server
-      const response = await fetch('https://ustadi-link-api.onrender.com/api/transcribe', {
+      const response = await fetch('http://localhost:5001/api/transcribe', {
         method: 'POST',
         body: formData,
       });
@@ -69,3 +69,4 @@ function AudioRecorder() {
 }
 
 export default AudioRecorder;
+// Note: Ensure you have the necessary CSS classes (like btn, btn-primary, etc.) defined in your stylesheets for proper styling.

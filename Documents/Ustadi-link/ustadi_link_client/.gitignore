@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dependencies
+
+/api/node_modules
+
+# Local secrets (VERY IMPORTANT)
+.env
+/api/.env
+
